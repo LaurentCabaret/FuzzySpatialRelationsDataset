@@ -11,15 +11,10 @@ Artificial:
 
  * 512x512 (image size)
    * objectsize_fuzziness -- contains 10 elements (5 crisp / 5 Fuzzy) with variable object size (number of «active pixels») from 1 to 65536
-   * position -- contains 81 elements, all crisp with fixed-size objects (20x20 active pixels for 256x256 images)
+   * position -- contains 81 elements, all crisp with fixed-size objects (40x40 active pixels for 512x512 images)
    * shape -- contains 3 elements, various shapes with equivalent number of active pixels.
 
  * 1024x1024 (image size)
    * objectsize_fuzziness -- contains 10 elements (5 crisp / 5 Fuzzy) with variable object size (number of «active pixels») from 1 to 65536
-   * position -- contains 81 elements, all crisp with fixed-size objects (20x20 active pixels for 256x256 images)
+   * position -- contains 81 elements, all crisp with fixed-size objects (80x80 active pixels for 1024x1024 images)
    * shape -- contains 3 elements, various shapes with equivalent number of active pixels.
-
-
-
-
-
